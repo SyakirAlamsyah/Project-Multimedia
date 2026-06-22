@@ -9,7 +9,7 @@ public class main : MonoBehaviour
     void Start()
     {
        halo;
-        
+        ngeweee;
 
     }
 
