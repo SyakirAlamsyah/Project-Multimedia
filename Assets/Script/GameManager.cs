@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private GameObject gameover;
+    [SerializeField] private GameObject GameOverScreen;
     public static GameManager instance;
     
     public void GameOver()
     {
-        gameover.SetActive(true);
+        GameOverScreen.SetActive(true);
         Time.timeScale = 0;
     }
     private void Awake()
@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void Restart()
+    public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
