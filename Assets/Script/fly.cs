@@ -5,7 +5,8 @@ using UnityEngine.InputSystem;
 
 public class fly : MonoBehaviour
 {
-    [SerializeField] private float v = 2f;
+    [SerializeField] private float v = 1f;
+    [SerializeField] private float rotatespeed = 10f;
 
     private Rigidbody2D rb;
     // Start is called before the first frame update
@@ -21,5 +22,10 @@ public class fly : MonoBehaviour
         {
             rb.velocity = Vector2.up * v;
         }
+    }
+
+    private void FixedUpdate()
+    {
+        transform.rotation = Quaternion.Euler(0, 0, rotatespeed * rb.velocity.y);
     }
 }
