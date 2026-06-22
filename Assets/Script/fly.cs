@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class fly : MonoBehaviour
 {
@@ -16,6 +17,9 @@ public class fly : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Mouse.current.leftButton.isPressed)
+        {
+            rb.velocity = Vector2.up * v;
+        }
     }
 }

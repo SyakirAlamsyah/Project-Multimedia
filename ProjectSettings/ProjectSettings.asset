@@ -818,8 +818,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: FlappyBird Katanya
-  metroPackageVersion: 
+  metroPackageName: FlappyBirdKatanya
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -827,7 +827,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: FlappyBird Katanya
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: FlappyBird Katanya
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
