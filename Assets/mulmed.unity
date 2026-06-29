@@ -149,16 +149,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 126975749}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.04, y: 0.04, z: 0.04}
+  m_LocalScale: {x: 7.37, y: 7.37, z: 7.37}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 499253802}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.97, y: -711}
+  m_AnchoredPosition: {x: 0, y: -308.3}
   m_SizeDelta: {x: 52, y: 29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &126975751
@@ -205,13 +205,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: b08a758b20a7ae24794ae0eed68b8feb, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 427067977}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b08a758b20a7ae24794ae0eed68b8feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameover: {fileID: 499253798}
+  GameOverScreen: {fileID: 499253798}
 --- !u!4 &427067978
 Transform:
   m_ObjectHideFlags: 0
@@ -527,7 +527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxtime: 1.5
   height: 0.5
-  pipe: {fileID: 9205886793585924215, guid: 20bafed0ee754514aa23fc9679624e12, type: 3}
+  pipe: {fileID: 507723306481651983, guid: 9cfbef6a1030a114baec0e169798c073, type: 3}
 --- !u!4 &693520862
 Transform:
   m_ObjectHideFlags: 0
@@ -700,14 +700,14 @@ RectTransform:
   m_GameObject: {fileID: 973771637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.04, y: 0.04, z: 0.04}
+  m_LocalScale: {x: 6.72, y: 6.72, z: 6.72}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 499253802}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -400.02, y: -707.47}
+  m_AnchoredPosition: {x: 0, y: 427.35}
   m_SizeDelta: {x: 96, y: 21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &973771639
@@ -1047,7 +1047,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1641809016
 RectTransform:
   m_ObjectHideFlags: 0
